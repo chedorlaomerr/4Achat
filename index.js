@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 const port = 8000;
-const dbURL = `mongodb+srv://jbarry:Bend2002@node-chat-tutorial-clus.fhrzu.mongodb.net/node-chat-tutorial-cluster1?retryWrites=true&w=majority`;
+
 
 const http = require("http").Server(app);
 const io = require("socket.io")(http);
